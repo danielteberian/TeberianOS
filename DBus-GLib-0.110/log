@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, and installed. The short test suite was executed, and all tests passed, but the more extensive test suite was never used. Also, GTK-Doc was not installed at the time of compilation, so the documentation for this package was not created/installed.

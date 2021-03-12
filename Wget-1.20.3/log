@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, and installed. However, the test-suite failed (this may be a side-effect of IO::Socket::INET6), and there were several optionals that were not present on the system at the time of compilation.

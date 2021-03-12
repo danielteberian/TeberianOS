@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, and installed. OpenCV support was not included, and Gavl was not included, as that stupid package claims my compiler cannot create executables, as I am building TONS of stuff.

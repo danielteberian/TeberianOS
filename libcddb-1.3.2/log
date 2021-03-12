@@ -1,0 +1,1 @@
+This package has an included test-suite, with two expected failures. Three failures occurred during the execution of said test-suite, but the installation went smoothly. This installation appears to be working.

@@ -1,0 +1,1 @@
+This package was compiled and installed with one issue (one test failed), but documentation for this package says that the test in question is known to fail. This package was not compiled with its optionals, so it should probably be rebuilt at a later date.

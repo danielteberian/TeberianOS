@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, and installed. However, the tests failed, which was likely due to one particular package not being installed on the system. This should be rebuilt, with all of its optionals.

@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, and installed. Several optionals were not installed at the time of compilation, which, in addition to reducing the compatibility of this package, causes the test-suite to fail, or to hang. This should probably be rebuilt, after its optionals have been installed.

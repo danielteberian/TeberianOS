@@ -1,0 +1,1 @@
+This package was patched, configured, compiled, and installed, without any difficulties. However, cURL is lacking support for several optionals which were no present on the system at the time of compilation.

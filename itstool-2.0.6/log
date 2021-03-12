@@ -1,0 +1,1 @@
+This package was seemingly configured, compiled, and installed, without any issues. However, the installation of docbook-xml-4.5 (a prerequisite of this package) has not been confirmed to be working.

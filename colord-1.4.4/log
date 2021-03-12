@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, and installed. GTK-Doc was invoked, to install documentation, but manpages were not installed. The test-suite failed, but, according to documentaion, some failures (or just one) are expected, but I have no idea if this failure was the same kind as the one referenced in the aforementioned documentation.

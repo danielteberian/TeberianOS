@@ -1,0 +1,1 @@
+This package includes three different builds: double-precision, single-precision, and long double-precision. All three of the aforementioned builds were successfully configured, compiled (using a cleaned directory), checked, and installed. Each of the three builds has a test-suite respectively, and all the tests, in each of the respective suites, were executed without any issues.

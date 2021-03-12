@@ -1,0 +1,11 @@
+This package was successfully installed, but it is not being used. The binary is in /opt/rustc/bin/direnv. To use this package, add eval '
+_direnv_hook() {
+  local previous_exit_status=$?;
+  trap -- '' SIGINT;
+  eval "$("/opt/rustc-1.47.0/bin/direnv" export bash)";
+  trap - SIGINT;
+  return $previous_exit_status;
+};
+if ! [[ "${PROMPT_COMMAND:-}" =~ _direnv_hook ]]; then
+  PROMPT_COMMAND="_direnv_hook${PROMPT_COMMAND:+;$PROMPT_COMMAND}"
+fi' to the .bashrc.

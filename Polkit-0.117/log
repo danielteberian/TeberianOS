@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, and installed. This package is missing several optionals, so, in addition to the compatibility of this package being less than desired, the test-suite was not used. This package was, however, configured to use Linux-PAM.

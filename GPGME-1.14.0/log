@@ -1,0 +1,1 @@
+This package was configured, compiled, and installed, but the test-suite was never used, as the prerequisites (for the tests) were not present at the time of compilation. This should be rebuilt, with all optionals, so it can be tested, and so its documentation can be installed.

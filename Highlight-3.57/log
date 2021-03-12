@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, and installed. The GUI frontend for this package was not installed, as Qt is not installed on the system. This should be recompiled and reinstalled, after Qt is installed, so that the aforementioned GUI frontend can be installed.

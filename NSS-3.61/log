@@ -1,0 +1,1 @@
+This package was succesfully configured, compiled, and installed. Tests were attempted, but, at a certain point, the test-suite was stuck on a single test. However, HUNDREDS of tests had been successful, prior to the test that kept the test-suite from finishing.

@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, and installed. One of the tests in the included test-suite failed, but all other tests were executed without issue. The aforementioned failure is likely due to a missing optional. Ironically, DOxygen was not built with its documentation.

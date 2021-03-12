@@ -1,0 +1,1 @@
+This package's included test-suite takes a LONG time, and this installation took far longer than expected, due to make check. Every check (of literally hundreds, if not thousands) was successful, but the checks ended abruptly, due to some error. I'm not sure what stopped the checks, but I am (kind of) confident in the stability of this installation.

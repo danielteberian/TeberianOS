@@ -1,0 +1,1 @@
+This was successfully configured, compiled, and installed. Most checks were okay, but there was an error, which was probably because of a missing optional. Java is not supported, as it was not configured at the time of R being compiled and installed.

@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, and installed. Several optionals were missing at the time of compilation, so this package will not be as compatible as I had hoped. The aforementioned missing optionals were also required, in order to run the included test-suite.

@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, tested, and installed. There were two missing optionals, which were missing at the time of this package being compiled (Valgrind, libedit).

@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, and installed. The test-suite had one failed test, but that is likely an issue with Meson (meson-build). Also, this package may have been missing one or more of its optionals when it was compiled.

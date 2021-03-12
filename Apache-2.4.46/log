@@ -1,0 +1,1 @@
+This package was patched, configured, compiled, and installed, without any issues. Some optionals were not installed at the time of compilation, so Apache might need to be rebuilt in the future. The Apache bootscript has also been installed, which should launch the Apache server at boot.

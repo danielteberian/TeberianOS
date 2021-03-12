@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, tested, and installed. The test-suite is rather strange, and I am not sure what happened. What I do know is that there were no failures in said test-suite, so that is cool. Several optionals were not installed at the time of compiliation, so this should probably be rebuilt.

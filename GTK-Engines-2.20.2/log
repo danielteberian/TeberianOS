@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, and installed. The test-suite ran into an error, when GTK failed the 'torture-test'. This should not be too big of an issue, but only time can tell. This package was installed with support for Lua, in addition to the normal features.

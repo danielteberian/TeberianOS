@@ -1,0 +1,1 @@
+This package seems to be in working order, but it failed some tests. I am hoping that said failures occurred, due to some missing optionals, which, according to documentation, are required in order to run the test suite.

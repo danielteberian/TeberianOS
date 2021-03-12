@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, and installed. The test-suite was not run, as the package was compiled as the root user, which would have caused many tests within the test-suite to fail. One or more optionals were not installed at the time of compilation. An optional configuration was not executed: ln -sfv ./pkcs11/p11-kit-trust.so /usr/lib/libnssckbi.so

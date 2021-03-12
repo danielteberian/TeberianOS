@@ -1,0 +1,1 @@
+This package was compiled and installed without any issues. All tests in the test suite were executed successfully. This package has several optionals that were not installed during the compiliation of this package, so dhcpcd should probably be rebuilt, after installing its optionals. Also, the default config file (as per the BLFS book), and the BLFS script, have not been set up.

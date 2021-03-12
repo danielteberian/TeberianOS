@@ -1,0 +1,1 @@
+This package appears to have been configured, compiled, and installed correctly, but it failed several tests within its included test-suite. These failures were likely caused by the lack of an active network connection at the time of said tests being executed.

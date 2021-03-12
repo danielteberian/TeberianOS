@@ -1,0 +1,1 @@
+This package was recompiled, with added support for DOxygen, Xorg Libraries, elogind, and xmlto. Some optionals were not installed when this pacakge was compiled, so this package should probably be rebuilt in the future, with all of its optionals installed.

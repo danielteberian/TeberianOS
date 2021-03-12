@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, and installed. The package checks for dlopen, which is not available, so this should probably be reinstalled later on.

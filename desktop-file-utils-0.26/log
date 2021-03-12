@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, and installed. The function (pledge) was missing during compilation, so this may benefit from being recompiled with said function being enabled. NOTE: This package was installed in chroot.

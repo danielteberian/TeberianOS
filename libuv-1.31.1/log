@@ -1,0 +1,1 @@
+This package was compiled and installed with only one (potential) issue. One test failed, but this failure was likely a result of the test suite being run by root, which, according to the console output of said test suite, is not supported.

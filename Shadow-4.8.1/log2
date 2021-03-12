@@ -1,0 +1,1 @@
+This package was recompiled, again, for a fourth (or fifth) time. The previous installation resulted in being locked out of all users. Passwords were impossible to change, no logins would work, and even root was denied permissions. The current installation (I hope) supports both Linux-PAM, and Cracklib.

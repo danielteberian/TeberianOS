@@ -1,0 +1,1 @@
+This package was successfully configured, compiled, and installed. There were warnings about unused declarations, and libunwind was not found (despite it being installed), but, other than those two issues, everything went smoothly.

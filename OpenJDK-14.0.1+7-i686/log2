@@ -1,0 +1,1 @@
+This was reconfigured, recompiled, and tested. The tests had a reported 48 failures, and 80 errors, along with around 5,800 successes. The number of failures was around the expected number (40), but the errors were a tad more common than they should have been. Regardless, the installation appears to be working now, as opposed to the previous, nonworking installation.

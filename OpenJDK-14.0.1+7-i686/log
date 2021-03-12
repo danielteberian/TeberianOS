@@ -1,0 +1,1 @@
+This package is seemingly working. It was configured, according to the documentation, but it has yet to be fully installed. If other packages, which rely upon this package, are installed, it can be assumed that this package was installed correctly, and this warning can be disregarded.
