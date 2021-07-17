@@ -1,0 +1,17 @@
+[package]
+name = "teberianos"
+version = "0.1.0"
+authors = ["danielteberian <danielteberian@github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+#cargo build
+[profile.dev]
+panic = "abort"
+
+#cargo build --release
+[profile.release]
+panic = "abort"
