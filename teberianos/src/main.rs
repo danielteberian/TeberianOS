@@ -7,9 +7,20 @@
 use core::panic::PanicInfo;
 
 
+static ALIVE: &[u8] = b"I am alive!";
+
 //This is a replacement for the main function.
 #[no_mangle] //Leave the name of this function alone! >:(
 pub extern "C" fn _start() -> ! {
+	let vga_buffer = 0xb8000 as *mut u8;
+
+	for (i, &byte) in ALIVE.iter().enumerate() {
+		unsafe {
+			*vga_buffer.offset(i as isize * 2) = byte;
+			*vga_buffer.offset(i as isize * 2 + 1) = 0xb;
+		}
+	}
+
 	loop {}
 }
 
@@ -19,4 +30,5 @@ pub extern "C" fn _start() -> ! {
 fn panic(_info: &PanicInfo) -> ! {
 	loop {}
 }
+
 
