@@ -95,14 +95,24 @@ impl Writer {
 //This will probably be removed in a later release.
 
 pub fn all_good() {
+	use core::fmt::Write;
 	let mut writer = Writer {
 		column_position: 0,
 		color_code: ColorCode::new(Color::Yellow, Color::Black),
 		buffer: unsafe { &mut *(0xb8000 as *mut Buffer) },
 	};
 
-	writer.write_string("TeberianOS:  ");
-	writer.write_string("If you can read this, ");
+	writer.write_byte(b'T');
+	writer.write_string("eberianOS: If you can read this, ");
 	writer.write_string("I have succeeded.");
+	write!(writer, "Here are some fun numbers: {} {}", 420, 1.0/4.0).unwrap();
 }
 
+use core::fmt;
+
+impl fmt::Write for Writer {
+	fn write_str(&mut self, s: &str) -> fmt::Result {
+		self.write_string(s);
+		Ok(())
+	}
+}
