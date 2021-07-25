@@ -14,7 +14,9 @@ static ALIVE: &[u8] = b"I am alive!";
 //This is a replacement for the main function.
 #[no_mangle] //Leave the name of this function alone! >:(
 pub extern "C" fn _start() -> ! {
-	vga_buffer::all_good();
+	use core::fmt::Write;
+	vga_buffer::WRITER.lock().write_str("I am still alive.").unwrap();
+	write!(vga_buffer::WRITER.lock(), " Here are some cool numbers: {} {} {}", 69, 420, 1337).unwrap();
 
 	loop {}
 }
