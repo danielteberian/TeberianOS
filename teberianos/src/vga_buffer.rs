@@ -41,9 +41,11 @@ struct ScreenChar {
 const BUFFER_HEIGHT: usize = 25;
 const BUFFER_WIDTH: usize = 80;
 
-#[repr(transparent)]
+
+use volatile::Volatile;
+
 struct Buffer {
-	chars: [[ScreenChar; BUFFER_WIDTH]; BUFFER_HEIGHT],
+	chars: [[Volatile<ScreenChar>; BUFFER_WIDTH]; BUFFER_HEIGHT],
 }
 
 pub struct Writer {
@@ -65,10 +67,10 @@ impl Writer {
 				let col = self.column_position;
 
 				let color_code = self.color_code;
-				self.buffer.chars[row][col] = ScreenChar {
+				self.buffer.chars[row][col].write(ScreenChar {
 					ascii_character: byte,
 					color_code,
-				};
+				});
 				self.column_position += 1;
 			}
 		}
@@ -103,3 +105,4 @@ pub fn all_good() {
 	writer.write_string("If you can read this, ");
 	writer.write_string("I have succeeded.");
 }
+
